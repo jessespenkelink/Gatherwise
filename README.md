@@ -1,3 +1,5 @@
+<img src="media/logo.png" alt="Gatherwise logo" width="128" align="right">
+
 # Gatherwise
 
 Mining and herb nodes on your world map and minimap for **World of Warcraft: Forever**, filtered by your skill, with the shortest gathering route through your zone and an arrow that guides you from node to node.

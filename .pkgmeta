@@ -4,6 +4,8 @@ manual-changelog:
   filename: CHANGELOG.md
   markup-type: markdown
 
+# Repository-only files: not part of the addon zip.
 ignore:
   - README.md
   - CHANGELOG.md
+  - media
