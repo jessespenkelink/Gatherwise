@@ -1,6 +1,6 @@
-# CurseForge texts for Gatherwise Forever
+# CurseForge texts for Gatherwise: Nodes & Routes
 
-Copy these into the CurseForge project page. Project name: **Gatherwise Forever**
+Copy these into the CurseForge project page. Project name: **Gatherwise: Nodes & Routes**
 (the addon is called "Gatherwise" in game; its folder is `GatherwiseForever`).
 
 ## Summary (one line, shown in search results)
