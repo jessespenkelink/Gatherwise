@@ -1,0 +1,18 @@
+## Interface: 16001
+## Title: Gatherwise
+## Notes: Mining and herb nodes on your map and minimap, filtered by your skill, with routes and a guide arrow.
+## Author: Jesse
+## Version: @project-version@
+## IconTexture: Interface\Icons\Trade_Mining
+## X-License: GPL-3.0-or-later
+## SavedVariables: GatherwiseDB
+
+Nodes.lua
+Spawns.lua
+Core.lua
+WorldMap.lua
+Templates.xml
+Minimap.lua
+Route.lua
+Live.lua
+Options.lua

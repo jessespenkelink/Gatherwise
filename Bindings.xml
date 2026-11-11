@@ -1,0 +1,8 @@
+<Bindings>
+    <Binding name="GATHERWISE_TOGGLE_ROUTE" header="GATHERWISE" category="ADDONS">
+        Gatherwise_ToggleRoute()
+    </Binding>
+    <Binding name="GATHERWISE_SKIP_STOP" category="ADDONS">
+        Gatherwise_SkipStop()
+    </Binding>
+</Bindings>

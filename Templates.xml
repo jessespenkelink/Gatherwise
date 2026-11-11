@@ -1,0 +1,30 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+    <!-- A node on the world map: the resource's icon in a round frame. -->
+    <Frame name="GatherwiseNodePinTemplate" mixin="GatherwiseNodePinMixin" enableMouse="true" virtual="true">
+        <Size x="14" y="14"/>
+        <Layers>
+            <Layer level="ARTWORK">
+                <Texture parentKey="Icon" setAllPoints="true"/>
+                <MaskTexture parentKey="Mask" file="Interface\CharacterFrame\TempPortraitAlphaMask" hWrapMode="CLAMPTOBLACKADDITIVE" vWrapMode="CLAMPTOBLACKADDITIVE" setAllPoints="true">
+                    <MaskedTextures>
+                        <MaskedTexture childKey="Icon"/>
+                    </MaskedTextures>
+                </MaskTexture>
+            </Layer>
+            <Layer level="OVERLAY">
+                <!-- Highlight ring around the node the route is heading to. -->
+                <Texture parentKey="Ring" file="Interface\Cooldown\ping4" alphaMode="ADD" hidden="true">
+                    <Size x="1" y="1"/>
+                    <Anchors>
+                        <Anchor point="TOPLEFT" x="-6" y="6"/>
+                        <Anchor point="BOTTOMRIGHT" x="6" y="-6"/>
+                    </Anchors>
+                    <Color r="0.35" g="0.95" b="0.85"/>
+                </Texture>
+            </Layer>
+        </Layers>
+    </Frame>
+
+    <!-- The route: a frame the size of the map with lines drawn on it. -->
+    <Frame name="GatherwiseRoutePinTemplate" mixin="GatherwiseRoutePinMixin" virtual="true"/>
+</Ui>

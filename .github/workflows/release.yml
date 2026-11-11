@@ -1,0 +1,26 @@
+# Builds Gatherwise and uploads it to CurseForge whenever a version tag (v1.2.3) is pushed.
+# Needs one repository secret: CF_API_TOKEN (your CurseForge API token).
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write # lets the packager also attach the zip to a GitHub release
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+      GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Check out the code (with history, for the version number)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Package and upload
+        uses: BigWigsMods/packager@v2
