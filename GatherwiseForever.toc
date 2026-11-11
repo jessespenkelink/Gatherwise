@@ -5,6 +5,7 @@
 ## Version: @project-version@
 ## IconTexture: Interface\Icons\Trade_Mining
 ## X-License: GPL-3.0-or-later
+## X-Curse-Project-ID: 1798328
 ## SavedVariables: GatherwiseDB
 
 Nodes.lua
