@@ -1,6 +1,7 @@
-# CurseForge texts for Gatherwise
+# CurseForge texts for Gatherwise Forever
 
-Copy these into the CurseForge project page.
+Copy these into the CurseForge project page. Project name: **Gatherwise Forever**
+(the addon is called "Gatherwise" in game; its folder is `GatherwiseForever`).
 
 ## Summary (one line, shown in search results)
 
@@ -12,7 +13,7 @@ Mining and herb nodes on your map and minimap, filtered by your skill, with the 
 
 **Gatherwise** shows every mining vein and herb on your world map and minimap, only the ones you can actually gather, and walks you past them in the shortest loop through your zone.
 
-Built for **World of Warcraft: Forever**.
+Built for **World of Warcraft: Forever**. Not related to the GatherWise addon for TBC Classic.
 
 ### What it does
 
